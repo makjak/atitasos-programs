@@ -1,3 +1,4 @@
+-- Made by Atithasos
 -- SPLITS A STRING INTO TWO PARTS, BEFORE AND AFTER THE DELIMITER
 function splitString(string, delimiter)
   local parts={}
