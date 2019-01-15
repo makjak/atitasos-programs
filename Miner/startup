@@ -28,14 +28,14 @@ end
 -- PRINTS THE BASIC SOFTWARE INFORMATION
 function printSoftwareInfo()
   print("---------------------------")
-  print("MLG MINING - SWISS EDITION")
-  print("WRITTEN BY ULTHEAN")
-  print("ADDITIONS BY SWISSZENI")
+  print("MLG MINING - EDITION")
+  print("WRITTEN BY ATITHASOS")
   print("---------------------------")
 end
  
 -- MAIN UPDATE CODE
-local updateConfig = http.get("https://raw.githubusercontent.com/swisszeni/MLG_Mining/master/updateList")
+local updateConfig = http.get("https://raw.githubusercontent.com/makjak/atitasos-programs
+/Miner/master/updateList")
 if not updateConfig then
   print("Error connecting to server")
   return false
