@@ -1,0 +1,119 @@
+-- Made by Atithasos
+-- VALUES FOR THE DIRECTIONS
+local up = "up"
+local down = "down"
+local forward = "forward"
+local back  = "back"
+local right = "right"
+local left = "left"
+
+-- LOAD FUNCTIONS FROM THE OTHER FILES
+os.loadAPI("Miner/api_sharedFunctions")
+os.loadAPI("Miner/api_turtleExt")
+
+-- --------------------------------------------- --
+-- START OF THE FUNCTIONS SPECIFIC TO digBase 9X9 --
+-- --------------------------------------------- --
+
+	api.turtleExt.digAndMove(down, 14, 0)
+	api.turtleExt.dig(down, 1 ,0)
+	for i=1, 4 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api_turtleExt.turnTo(left)
+	for i=1, 4 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api_turtleExt.turnTo(left)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(left)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(right)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(right)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(left)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(left)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(right)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(right)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(left)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(left)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(right)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(right)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(left)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(left)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(right)
+	api.turtleExt.digAndMove(forward, 1, 0)
+	api.turtleExt.dig(up, 1, 0)
+	api.turtleExt.dig(down, 1, 0)
+	api.turtleExt.turnTo(right)
+	for i=1, 8 do
+		api.turtleExt.digAndMove(forward, 1, 0)
+		api.turtleExt.dig(up, 1, 0)
+		api.turtleExt.dig(down, 1, 0)
+	end
+	api.turtleExt.turnTo(right)
+	api.turtleExt.digAndMove(forward, 4, 0)
+	api.turtleExt.turnTo(right)
+	api.turtleExt.digAndMove(forward, 4, 0)
+
+	print("The floor is Completed")
+	print("PRESS ANY KEY TO CONTINUE")
+  	read()
+  	term.clear()
