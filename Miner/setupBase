@@ -20,7 +20,7 @@ os.loadAPI("Miner/api_turtleExt")
 	for i=1, 4 do
 		api_turtleExt.digAndMove(forward, 1, 0)
 		api_turtleExt.dig(up, 1, 0)
-		api-turtleExt.dig(down, 1, 0)
+		api_turtleExt.dig(down, 1, 0)
 	end
 	api_turtleExt.turnTo(left)
 	for i=1, 4 do
