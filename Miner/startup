@@ -34,7 +34,7 @@ function printSoftwareInfo()
 end
  
 -- MAIN UPDATE CODE
-local updateConfig = http.get("https://raw.githubusercontent.com/makjak/atitasos-programs
+local updateConfig = http.get("https://raw.githubusercontent.com/makjak/atithasos-programs
 /Miner/master/updateList")
 if not updateConfig then
   print("Error connecting to server")
